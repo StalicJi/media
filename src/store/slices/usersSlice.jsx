@@ -1,0 +1,42 @@
+import { createSlice } from "@reduxjs/toolkit";
+import { fetchUsers } from "../thunks/fetchUsers";
+import { addUser } from "../thunks/addUser";
+
+const usersSlice = createSlice({
+    name: 'users',
+    initialState: {
+        data: [],
+        isLoading: false,
+        error: null
+    },
+    extraReducers(builder) {
+        builder.addCase(fetchUsers.pending, (state, action) => {
+            //更新state，向用戶顯示正在加載數據
+            state.isLoading = true;
+        });
+        builder.addCase(fetchUsers.fulfilled, (state, action) => {
+            //完成
+            state.isLoading = false;
+            state.data = action.payload
+        });
+        builder.addCase(fetchUsers.rejected, (state, action) => {
+            //錯誤
+            state.isLoading = false;
+            state.error = action.error;
+        });
+
+        builder.addCase(addUser.pending, (state, action) => {
+            state.isLoading = true;
+        });
+        builder.addCase(addUser.fulfilled, (state, action) => {
+            state.isLoading = false;
+            state.data.push(action.payload);
+        });
+        builder.addCase(addUser.rejected, (state, action) => {
+            state.isLoading = false;
+            state.error = action.error;
+        });
+    }
+});
+
+export const usersReducer = usersSlice.reducer;

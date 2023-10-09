@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Kenneth Witting",
+      "id": 2
+    },
+    {
+      "name": "Ms. Betsy Rosenbaum IV",
+      "id": 3
+    },
+    {
+      "name": "Maggie Nicolas",
+      "id": 4
+    },
+    {
+      "name": "Mr. Matthew Becker",
+      "id": 5
+    },
+    {
+      "name": "Josefina Hickle",
+      "id": 6
+    }
+  ],
+  "albums": [],
+  "photo": []
+}
