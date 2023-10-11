@@ -1,40 +1,28 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
-    },
-    {
-      "name": "Kenneth Witting",
-      "id": 2
-    },
-    {
-      "name": "Ms. Betsy Rosenbaum IV",
-      "id": 3
-    },
-    {
-      "name": "Maggie Nicolas",
-      "id": 4
-    },
-    {
-      "name": "Mr. Matthew Becker",
-      "id": 5
-    },
-    {
-      "name": "Josefina Hickle",
-      "id": 6
-    },
-    {
       "name": "Lamar Schmitt",
       "id": 7
     },
     {
-      "name": "Mr. Kenny Kessler",
-      "id": 8
+      "name": "Leroy Kuvalis",
+      "id": 9
     },
     {
-      "name": "Lee Goodwin-Kilback",
-      "id": 9
+      "name": "Carmen Kuphal PhD",
+      "id": 10
+    },
+    {
+      "name": "Nathan Abbott",
+      "id": 11
+    },
+    {
+      "name": "Edgar Stanton",
+      "id": 12
+    },
+    {
+      "name": "Freddie Stoltenberg",
+      "id": 13
     }
   ],
   "albums": [],
