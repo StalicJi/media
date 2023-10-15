@@ -1,63 +1,54 @@
 {
   "users": [
     {
-      "name": "Carmen Kuphal PhD",
-      "id": 10
+      "name": "Phyllis Rutherford",
+      "id": 2
     },
     {
-      "name": "Nathan Abbott",
-      "id": 11
+      "name": "Angel West",
+      "id": 3
     },
     {
-      "name": "Edgar Stanton",
-      "id": 12
+      "name": "Viola Roob",
+      "id": 4
     },
     {
-      "name": "Freddie Stoltenberg",
-      "id": 13
+      "name": "Dr. Mona Kreiger",
+      "id": 5
     }
   ],
   "albums": [
     {
-      "userId": 10,
-      "title": "Unbranded Soft Chicken",
-      "id": 17
+      "userId": 3,
+      "title": "Luxurious Cotton Mouse",
+      "id": 7
     },
     {
-      "userId": 10,
-      "title": "Tasty Wooden Chicken",
-      "id": 18
+      "userId": 4,
+      "title": "Gorgeous Rubber Hat",
+      "id": 9
     },
     {
-      "userId": 12,
-      "title": "Ergonomic Bronze Tuna",
-      "id": 19
+      "userId": 2,
+      "title": "Tasty Soft Salad",
+      "id": 10
     },
     {
-      "userId": 12,
-      "title": "Handcrafted Bronze Salad",
-      "id": 20
+      "userId": 2,
+      "title": "Practical Plastic Soap",
+      "id": 11
     },
     {
-      "userId": 11,
-      "title": "Elegant Soft Ball",
-      "id": 21
-    },
-    {
-      "userId": 11,
-      "title": "Unbranded Wooden Salad",
-      "id": 22
-    },
-    {
-      "userId": 10,
-      "title": "Luxurious Granite Bike",
-      "id": 23
-    },
-    {
-      "userId": 10,
-      "title": "Electronic Plastic Pants",
-      "id": 24
+      "userId": 2,
+      "title": "Refined Bronze Sausages",
+      "id": 12
     }
   ],
-  "photo": []
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/640/480?lock=5023838741987328",
+      "id": 2
+    }
+  ]
 }
